@@ -9,7 +9,7 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.ADD_COMMENT = "Adder commento";
 /** @export */ Blockly.Msg.CANNOT_DELETE_VARIABLE_PROCEDURE = "Can't delete the variable '%1' because it's part of the definition of the function '%2'";  // untranslated
 /** @export */ Blockly.Msg.CHANGE_VALUE_TITLE = "Cambiar valor:";
-/** @export */ Blockly.Msg.CLEAN_UP = "Clarar le blocos";
+/** @export */ Blockly.Msg.CLEAN_UP = "Rangiar le blocos";
 /** @export */ Blockly.Msg.COLLAPSE_ALL = "Plicar blocos";
 /** @export */ Blockly.Msg.COLLAPSE_BLOCK = "Plicar bloco";
 /** @export */ Blockly.Msg.COLOUR_BLEND_COLOUR1 = "color 1";
@@ -166,8 +166,8 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.LISTS_SORT_TYPE_NUMERIC = "numeric";
 /** @export */ Blockly.Msg.LISTS_SORT_TYPE_TEXT = "alphabetic";
 /** @export */ Blockly.Msg.LISTS_SPLIT_HELPURL = "https://github.com/google/blockly/wiki/Lists#splitting-strings-and-joining-lists";  // untranslated
-/** @export */ Blockly.Msg.LISTS_SPLIT_LIST_FROM_TEXT = "Crear un lista per un texto";
-/** @export */ Blockly.Msg.LISTS_SPLIT_TEXT_FROM_LIST = "crear un texto per un lista";
+/** @export */ Blockly.Msg.LISTS_SPLIT_LIST_FROM_TEXT = "crear lista ab texto";
+/** @export */ Blockly.Msg.LISTS_SPLIT_TEXT_FROM_LIST = "crear texto ab lista";
 /** @export */ Blockly.Msg.LISTS_SPLIT_TOOLTIP_JOIN = "Unir un lista de textos, separate per un delimitator, in un sol texto.";
 /** @export */ Blockly.Msg.LISTS_SPLIT_TOOLTIP_SPLIT = "Divider texto in un lista de textos, separante lo a cata delimitator.";
 /** @export */ Blockly.Msg.LISTS_SPLIT_WITH_DELIMITER = "con delimitator";

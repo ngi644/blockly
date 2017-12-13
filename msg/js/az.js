@@ -75,7 +75,7 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.HELP = "Kömək";
 /** @export */ Blockly.Msg.INLINE_INPUTS = "Sətiriçi girişlər";
 /** @export */ Blockly.Msg.IOS_CANCEL = "Cancel";  // untranslated
-/** @export */ Blockly.Msg.IOS_ERROR = "Error";  // untranslated
+/** @export */ Blockly.Msg.IOS_ERROR = "Xəta";
 /** @export */ Blockly.Msg.IOS_OK = "OK";  // untranslated
 /** @export */ Blockly.Msg.IOS_PROCEDURES_ADD_INPUT = "+ Add Input";  // untranslated
 /** @export */ Blockly.Msg.IOS_PROCEDURES_ALLOW_STATEMENTS = "Allow statements";  // untranslated
@@ -85,7 +85,7 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.IOS_VARIABLES_ADD_VARIABLE = "+ Add Variable";  // untranslated
 /** @export */ Blockly.Msg.IOS_VARIABLES_DELETE_BUTTON = "Delete";  // untranslated
 /** @export */ Blockly.Msg.IOS_VARIABLES_EMPTY_NAME_ERROR = "You can't use an empty variable name.";  // untranslated
-/** @export */ Blockly.Msg.IOS_VARIABLES_RENAME_BUTTON = "Rename";  // untranslated
+/** @export */ Blockly.Msg.IOS_VARIABLES_RENAME_BUTTON = "Adını dəyiş";
 /** @export */ Blockly.Msg.IOS_VARIABLES_VARIABLE_NAME = "Variable name";  // untranslated
 /** @export */ Blockly.Msg.LISTS_CREATE_EMPTY_HELPURL = "https://github.com/google/blockly/wiki/Lists#create-empty-list";  // untranslated
 /** @export */ Blockly.Msg.LISTS_CREATE_EMPTY_TITLE = "boş siyahı düzəlt";
