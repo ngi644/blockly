@@ -25,7 +25,7 @@ Blockly.Blocks["skldataset_import"] = {
     this.setHelpUrl("url");
     this.setListData();
     this.setOutput(true, "Array");
-    this.updateShape_();
+    //this.updateShape_();
   },
   setListData: function () {
       var self = this;
@@ -50,8 +50,22 @@ Blockly.Blocks["skldataset_import"] = {
         return response.json();
     }).then(function(resjson) {
         if (index != undefined && index != '(None)') {
-            inputGroup.appendField(new Blockly.FieldDropdown(resjson['headers']), 'COLUMN');
+            inputGroup.appendField(new Blockly.FieldDropdown(resjson['headers'], function(option) {
+                this.sourceBlock_.setDataList(option);
+            }), 'COLUMN');
         }
     });
+  },
+    setDataList: function(index, index_value) {
+      var self = this;
+        var inputGroup = self.getInput('SECOND');
+        var dataset_name = self.getFieldValue('DATASET_NAME');
+        fetch(dataUrl + '/' + dataset_name + '/data/' +  index).then(function(response) {
+            return response.json();
+        }).then(function(resjson) {
+            console.log(resjson);
+            self.VALUE = resjson['data'];
+            console.log(self);
+        });
   }
 };

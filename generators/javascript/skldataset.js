@@ -33,7 +33,6 @@ Blockly.JavaScript['skldataset_import'] = function(block) {
   var dataset_name = block.getFieldValue('DATASET_NAME');
   var dataset_column = block.getFieldValue('COLUMN');
   // TODO:
-
-  var code = dataset_name + '\n' + dataset_column + '\n';
-  return code;
+  var code = '[' + block.VALUE.join(',') + ']';
+  return [code, Blockly.JavaScript.ORDER_ATOMIC];
 };
